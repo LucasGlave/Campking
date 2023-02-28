@@ -1,7 +1,8 @@
-import './App.css';
-import { BasicExample } from './componentes/NavBar/NavBar';
+import './App.scss';
+import { NavBar } from './componentes/NavBar/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './componentes/NavBar/NavBar.scss'
+import ItemListContainer from './componentes/ItemListContainer/ItemListContainer';
 
 
 function App() {
@@ -10,8 +11,8 @@ function App() {
 
   return (
     <div>
-      <BasicExample/>
-
+      <NavBar/>
+      <ItemListContainer/>
 
     </div>
   );

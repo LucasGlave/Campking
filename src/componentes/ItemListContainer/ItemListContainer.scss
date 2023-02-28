@@ -1,0 +1,26 @@
+.Container{
+    height: 89.1vh;
+    background-color: #1b5400;
+    text-align: center;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+    1px 15px 6px rgba(0, 0, 0, 0.836),
+    1px 18px 10px rgba(0, 0, 0, 0.671),
+    1px 22px 35px rgba(0, 0, 0, 0.397);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h2{
+    padding: 20%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
