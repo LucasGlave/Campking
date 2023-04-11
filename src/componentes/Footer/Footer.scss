@@ -1,0 +1,21 @@
+.footer{
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 8rem;
+    .data{
+        display: flex;
+        flex-direction: row;
+    }
+    .category{
+        display: flex;
+        flex-direction: row;
+    }
+    h6{
+        font-size: 1rem;
+    }
+}

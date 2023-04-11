@@ -1,0 +1,25 @@
+.checkout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2efef;
+    min-height: 90.1vh;
+    .card{
+        display: flex;
+        border-radius: 12px;
+        width: 42rem;
+        align-items: center;
+        height: 18rem;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    form{
+        width: 40rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        .btn{
+            margin-top: 7px;
+        }
+    }
+}
