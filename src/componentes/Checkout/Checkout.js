@@ -4,7 +4,6 @@ import { CartContext } from "../../context/CartContext"
 import { Navigate } from "react-router-dom"
 import { collection, addDoc } from "firebase/firestore"
 import { db } from "../../firebase/config"
-import { Card } from "react-bootstrap"
 import './Checkout.scss'
 
 
@@ -67,35 +66,40 @@ const Checkout = () => {
             <div className="divh2">
                 <h2>Checkout</h2>
             </div>
-            <Card className="bg-dark">
-                <Form onSubmit={handleSubmit}>
-                    <input
-                        onChange={handleInputChange}
-                        value={values.nombre}
-                        type={'text'}
-                        placeholder='Nombre'
-                        className="form-control my-2"
-                        name="nombre"
-                    />
-                    <input
-                        onChange={handleInputChange}
-                        value={values.direccion}
-                        type={'text'}
-                        placeholder='Dirección'
-                        className="form-control my-2"
-                        name="direccion"
-                    />
-                    <input
-                        onChange={handleInputChange}
-                        value={values.email}
-                        type={'text'}
-                        placeholder='Email'
-                        className="form-control my-2"
-                        name="email"
-                    />
-                    <button className="btn btn-light" type="submit">Enviar</button>
-                </Form>
-            </Card>
+            <section>
+                <div className="form-box">  
+                    <div className="form-value">
+                        <Form onSubmit={handleSubmit}>
+                            <h3>INGRESE SUS DATOS</h3>
+                            <input
+                                onChange={handleInputChange}
+                                value={values.nombre}
+                                type={'text'}
+                                placeholder='Nombre'
+                                className="form-control my-2 inputbox"
+                                name="nombre"
+                            />
+                            <input
+                                onChange={handleInputChange}
+                                value={values.direccion}
+                                type={'text'}
+                                placeholder='Dirección'
+                                className="form-control my-2 inputbox"
+                                name="direccion"
+                            />
+                            <input
+                                onChange={handleInputChange}
+                                value={values.email}
+                                type={'text'}
+                                placeholder='Email'
+                                className="form-control my-2 inputbox"
+                                name="email"
+                            />
+                            <button className="btn btn-light" type="submit">Enviar</button>
+                        </Form>
+                    </div>
+                </div>
+            </section>
         </div>
 
     )

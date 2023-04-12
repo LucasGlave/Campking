@@ -36,7 +36,7 @@ const Cart = () => {
                                     <small>Precio: ${prod.price}</small>
                                     <small>Cantidad: {prod.cantidad}</small>
                                     <button
-                                        onClick={() => remove(prod.id)} className="btn btn-dark">Eliminar del carrito
+                                        onClick={() => remove(prod.id)} className="btn btn-dark transition duration-300 ease-in-out">Eliminar del carrito
                                     </button>
                                 </div>
                             </div>

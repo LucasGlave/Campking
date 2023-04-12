@@ -12,7 +12,7 @@ export const NavBar = () => {
       <nav bg="light" expand="lg">
         <div className='Nav'>
           <Link to="/"><img src="./img/logo.png" width="80" height="80" alt='logo'></img></Link>
-          <Link to="/" className="navbar__link rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-600 hover:text-slate-900 basic-nav-dropdown"><h6>Productos</h6></Link>
+          <Link to="/" className="navbar__link rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-600 hover:text-slate-900"><h6>Productos</h6></Link>
           <Link to="/nosotros" className="navbar__link rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-600 hover:text-slate-900"><h6>Nosotros</h6></Link>
           <Link to="/contacto" className="navbar__link rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-600 hover:text-slate-900"><h6>Contacto</h6></Link>
           <div className='categorias'>

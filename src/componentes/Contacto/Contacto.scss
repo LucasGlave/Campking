@@ -1,0 +1,49 @@
+.p-4{
+    padding: 15.5rem!important;
+    margin: 2.4rem;
+}
+
+.animate-pulse{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.rounded-full {
+    border-radius: 12px;
+    margin-top: -15rem;
+    
+}
+
+.card{
+    box-shadow: 12px 12px 22px rgb(54, 54, 54);
+}
+
+.max-w-sm{
+    max-width: 41rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
+
+.h-10 {
+    // height: 23rem;
+    height: 380px;
+}
+
+.w-10 {
+    // width: 19.5rem;
+    width: 320px;
+    
+}
+
+.flex-1{
+    display: flex;
+    width: 5rem;
+}
